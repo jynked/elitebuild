@@ -1,0 +1,195 @@
+.delivery-info {
+    max-width: 1440px;
+    height: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .delivery-info__breadcrumb {
+    width: 135px;
+    height: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-dark-blue);
+    white-space: nowrap; 
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .delivery-info__breadcrumb a {
+    text-decoration: none;
+    color: var(--text-dark-blue);
+}
+  .delivery-info__title {
+    width: 188px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--background-dark-blue);
+    margin-bottom: 25px;
+  }
+  .delivery-info__column p {
+    margin-bottom: 25px;
+  } 
+  
+  .delivery-info__list {
+    list-style: decimal;
+    padding-left: 20px;    
+  }
+  .delivery-info__item {
+    margin-bottom: 25px;
+    margin-top: 25px;    
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);  
+  }
+  .delivery-info__intro p,
+    .delivery-info__note p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--text-dark-blue);
+    margin-bottom: 25px;
+  }
+  .delivery-map {
+    width: 1401px;
+    height: 414px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: var(--background-light-gray);
+  }
+  .delivery-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .delivery-map__text {
+    width: 257px;
+    height: 42.17px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    color: var(--text-dark-blue);
+  }
+  
+  
+  @media (max-width: 1440px) {
+    .delivery-info {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+  @media (max-width: 320px) {
+    .delivery-info {
+        width: 100%;
+        max-width: 320px;
+        height: 1418px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      .delivery-info__breadcrumb {
+        width: 196px;
+        height: 15px;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14.52px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-dark-blue);
+        white-space: nowrap; 
+        margin-top: 25px;
+        margin-bottom: 32px;
+      }
+      .delivery-info__title {
+        width: 94px;
+        height: 24px;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--background-dark-blue);
+        margin-bottom: 20px;
+      }
+      .delivery-info__column p {
+        margin-bottom: 15px;
+      } 
+      
+      .delivery-info__list {
+        list-style: decimal;
+        padding-left: 20px;    
+      }
+      .delivery-info__item {
+        margin-bottom: 15px;
+        margin-top: 15px;    
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        text-align: left;
+        color: var(--text-dark-blue);  
+      }
+      .delivery-info__intro p,
+        .delivery-info__note p {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        text-align: left;
+        color: var(--text-dark-blue);
+        margin-bottom: 15px;
+      }
+      .delivery-map {
+        width: 300px !important;
+        height: 414px !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: var(--background-light-gray);
+      }
+      .delivery-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .delivery-map__text {
+        width: 257px;
+        height: 42.17px;
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14.52px;
+        text-align: center;
+        color: var(--text-dark-blue);
+      }
+  }

@@ -1,0 +1,109 @@
+#product-action {
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-action__content {
+    width: 1400px;
+    height: 484px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;   
+    margin-bottom: 25px;
+}
+.product-action__block {
+    width: 690px;
+    height: 232px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-action__block--1 {
+    background-image: url('/images/Акция.png');
+}
+
+.product-action__block--2 {
+    background-image: url('/images/Акция (3).png');
+}
+
+.product-action__block--3 {
+    background-image: url('/images/Акция (1).png');
+}
+
+.product-action__block--4 {
+    background-image: url('/images/Акция (4).png');
+}
+
+
+.product-action__show-all {
+    width: 320px;
+    height: 55px;
+    background-color: var(--background-dark-blue, #052659);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .product-action__show-all-button {
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-white, #FFFFFF);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  @media (max-width: 320px) {
+    #product-action {
+        height: 627px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }    
+    .product-action__content {
+        width: 300px;
+        /*height: 336px;*/
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+        margin-top: 35px;  
+        margin-bottom: 15px;
+    }
+    .product-action__block {
+        width: 300px;
+        height: 117px;
+        position: relative;
+        overflow: hidden;
+        background-image: url('/images/Акция_2.png');
+    }
+    .product-action__block-image {
+        width: 300px;
+        height: 117px;
+        object-fit: cover;
+    }
+    .product-action__show-all {
+        width: 300px;
+        height: 44px;  
+    }      
+    .product-action__show-all-button {
+        height: 44px;  
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94x;        
+    }
+  }  

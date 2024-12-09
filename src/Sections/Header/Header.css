@@ -1,0 +1,278 @@
+#header{
+    height: 874px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header__content {
+    width: 1400px;
+    height: 484px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .header__block {
+    width: 690px;
+    height: 232px;
+    border-radius: 2px;
+    background-color: var(--background-light-blue, #7DA0C4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__block-content {
+    margin-left: 23px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header__block-title {
+    width: 222px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-dark-blue, #011023);
+  }
+  .header__block-button {
+    width: 173px;
+    height: 35px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-white, #FFFFFF);
+    background-color: var(--background-dark-blue, #052659);
+    border: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__block:nth-child(2) .header__block-image {
+    margin-top: 25px;
+  }
+  .header__block:nth-child(1) .header__block-image {
+    margin-top: 15px;
+  }
+  .header__show-all {
+    width: 320px;
+    height: 55px;
+    background-color: var(--background-dark-blue, #052659);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .header__show-all-button {
+    width: 100%;
+    height: 100%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-white, #FFFFFF);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .header__info {
+    width: 1044px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+  }
+  .header__info-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .header__info-item:first-child {
+    width: 241px;
+    height: 60px;
+  }
+  
+  .header__info-item:nth-child(2) {
+    width: 418px;
+    height: 60px;
+  }
+  
+  .header__info-item:nth-child(3) {
+    width: 277px;
+    height: 60px;
+  }
+  .header__info-title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-dark-blue, #011023);
+  }
+@media (max-width: 320px) {
+    #header{
+    height: 581px;   
+}
+.header__content {
+    width: 300px;
+    height: 336px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .header__block {
+    width: 145px;
+    height: 163px;
+    border-radius: 2px;
+    background-color: var(--background-light-blue, #7DA0C4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__block-content {
+    margin-left: 0px;
+    /*height: 188px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .header__block-title {
+    width: 107px;
+    height: 15px;
+    font-size: 12px;  
+    line-height: 14.52px;
+  }
+  .header__block-button {
+    width: 107px;
+    height: 25px;   
+    font-size: 12px;  
+    line-height: 14.52px;  
+  }
+  .header__block-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .header__block:nth-child(1) .header__block-image img {
+    width: 134px;
+    height: 79px;
+    content: url('/images/стройматериалы 2_2.png');
+  }
+  
+  .header__block:nth-child(2) .header__block-image img {
+    width: 134px;
+    height: 71.97px;
+    content: url('/images/инструменты 1_2.png');
+  }
+  
+  
+  .header__block:nth-child(3) .header__block-image img {
+    width: 109px;
+    height: 91px;
+    content: url('/images/Электрика- 1_2.png');
+  }
+  
+  .header__block:nth-child(4) .header__block-image img {
+    width: 134px;
+    height: 79.65px;
+    content: url('/images/хоз инвентарь_2.png');
+  }  
+  .header__block:nth-child(3) .header__block-image,
+  .header__block:nth-child(4) .header__block-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+   .header__block:nth-child(3),
+   .header__block:nth-child(4) {
+    position: relative;
+   }
+   .header__block:nth-child(2) .header__block-image {
+    margin-top: 25px;
+  } 
+  .header__block:nth-child(1) .header__block-image {
+    margin-top: 25px;
+  }
+  .header__show-all {
+    width: 300px;
+    height: 44px;
+    background-color: var(--background-dark-blue, #052659);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  
+  .header__show-all-button {
+    height: 44px;
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+  .header__info {
+    width: 300px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+  }
+  .header__info-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .header__info-item:first-child {
+    width: 195px;
+    height: 35px;
+  }
+  
+  .header__info-item:nth-child(2) {
+    width: 300px;
+    height: 51px;
+  }
+  
+  .header__info-item:nth-child(3) {
+    width: 228px;
+    height: 35px;
+  }
+  .header__info-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+  }
+  .header__info-img {
+    width: 35px;
+    height: 35px;
+  }
+}
+  

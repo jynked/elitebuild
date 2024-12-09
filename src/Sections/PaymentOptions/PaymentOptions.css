@@ -1,0 +1,215 @@
+#payment-options {
+    height: 221px;
+    display: flex; 
+    flex-direction: column;    
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.payment-options__content {
+    width: 1289px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.payment-options__title {
+    width: 561px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--background-dark-blue, #052659);
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.payment-options__logos {
+    display: flex;
+    gap: 66px;
+    margin-left: 117px;
+}
+/*Мир*/
+.payment-options__logo:first-child {
+    width: 163.64px;
+    height: 48px;
+}
+
+.payment-options__logo:first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*VisaMaster*/
+.payment-options__logo:nth-child(2) {
+    width: 61.54px;
+    height: 48px;
+}
+
+.payment-options__logo:nth-child(2) img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*Visa*/
+.payment-options__logo:nth-child(3) {
+    width: 150px;
+    height: 48px;
+}
+
+.payment-options__logo:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*СБП*/
+.payment-options__logo:nth-child(4) {
+    width: 90px;
+    height: 48px;
+}
+
+.payment-options__logo:nth-child(4) img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*Халва*/
+.payment-options__logo:nth-child(5) {
+    width: 271.09px;
+    height: 48px;
+}
+
+.payment-options__logo:nth-child(5) img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.payment-options__description-text {
+    width: 130px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--text-dark-blue, #011023);
+    text-transform: uppercase;
+}
+@media (max-width: 320px) {
+    #payment-options {
+        height: 260px;
+    }
+    .payment-options__content {
+        width: 291px;
+        height: 169px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 17px;
+        margin-left: 19px;
+        margin-right: 19px;
+        margin-top: 35px;
+    }
+    .payment-options__title {
+        width: 281px;
+        height: 24px;
+        font-size: 20px;
+        line-height: 24.2px;  
+        margin-top: 0px; 
+        margin-bottom: 0px;     
+    }
+    .payment-options__logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 0px;   
+        row-gap: 17px;
+        margin-left: 0px;
+    }    
+    /*Мир*/
+    .payment-options__logo:first-child {
+        width: 102px;
+        height: 30px;
+        order: 1;
+        display: flex !important;
+        text-align: center !important; 
+        justify-content: center !important;
+        margin: 0 auto;
+    }    
+    .payment-options__logo:first-child img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /*Mastercard*/
+    .payment-options__logo:nth-child(2) {
+        width: 33px;
+        height: 26px;
+        order: 4;
+        margin: 0 auto;
+    }    
+    .payment-options__logo:nth-child(2) img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /*Visa*/
+    .payment-options__logo:nth-child(3) {
+        width: 81.25x;
+        height: 26px;
+        order: 5;
+        margin: 0 auto;
+    }    
+    .payment-options__logo:nth-child(3) img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /*СБП*/
+    .payment-options__logo:nth-child(4) {
+        width: 48.75px;
+        height: 26px;
+        order: 3;
+        margin: 0 auto;
+    }    
+    .payment-options__logo:nth-child(4) img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /*Халва*/
+    .payment-options__logo:nth-child(5) {
+        width: 135px;
+        height: 24.21px;
+        order: 2;
+        margin: 0 auto;
+    }    
+    .payment-options__logo:nth-child(5) img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .payment-options__description {
+        order: 6;
+       
+    }
+    
+    .payment-options__description-text {
+        width: 135px;
+        height: 34px;    
+        font-size: 14px;     
+        line-height: 16.94px;  
+        margin: 0 auto; 
+        display: flex !important;
+        text-align: center !important; 
+        justify-content: center !important;
+    }
+}
